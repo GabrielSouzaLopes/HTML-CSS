@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar caixas</title>
+</head>
+<style>
+    /*Para centralizar coloque o container Position relative e o conteudo position absolute 
+    Depois no conteudo mecha na % de top e left e depois na % do trasform (translate) obs valores negativos*/
+    #container{
+        position: relative;
+        height: 96vh;
+        background-color: blueviolet;
+        padding: 10px;
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+
+    }
+
+    #conteudo {
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        background-color: yellow;
+        background-image: url(imagens/target001.png);
+        background-size: 100% 100%;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate( -50%, -50%);
+
+    }
+</style>
+
+<body>
+     <section id="container">
+        <article id="conteudo">
+
+        </article>
+     </section>
+</body>
+</html>
