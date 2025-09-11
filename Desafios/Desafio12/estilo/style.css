@@ -27,3 +27,14 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
+
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
