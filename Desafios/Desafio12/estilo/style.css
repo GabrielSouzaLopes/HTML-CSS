@@ -46,8 +46,13 @@ section.normal{
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.322);
     color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.441);
+    width: 400px;
 }
 
 
