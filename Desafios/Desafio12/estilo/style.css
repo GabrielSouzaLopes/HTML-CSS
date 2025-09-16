@@ -64,12 +64,18 @@ section.normal{
 section.imagem {
     background-color: rgba(0, 0, 0, 0.322);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.441);
     display: inline-block;
     padding: 5px;
+    
+}
+
+section > p {
+    padding-bottom: 1em;
 }
 
 section#img01 {
@@ -81,6 +87,8 @@ section#img01 {
 section#img02 {
    background-image: url(../imagens/background002.jpg);
    background-size: cover;
+   background-position: right bottom;
+   background-attachment: fixed;
 }
 
 
